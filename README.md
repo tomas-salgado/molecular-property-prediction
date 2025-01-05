@@ -1,6 +1,5 @@
-# Identifying Molecular Properties Using Transformers
-
-In this project we develop a model that can identify the solubility of any molecules. The model is trained on a dataset of SMILES strings that are preprocessed and then fed into a self-attention model that learns to predict the solubility of any molecule. 
+# Identifying Molecular Solubility Using Transformers
+This project implements a transformer-based model for predicting molecular solubility, a key property in drug discovery applications. The model processes SMILES string representations of molecules using self-attention mechanisms to identify patterns that correlate with solubility values. We demonstrate that transformer architectures can effectively predict molecular properties using only SMILES sequence information.
 
 ## Technical Implementation
 
