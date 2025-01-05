@@ -1,4 +1,4 @@
-# Identifying Molecular properties using transformers
+# Identifying Molecular Properties Using Transformers
 
 In this project we develop a model that can identify the solubility of any molecules. The model is trained on a dataset of SMILES strings that are preprocessed and then fed into a self-attention model that learns to predict the solubility of any molecule. 
 
