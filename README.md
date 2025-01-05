@@ -8,7 +8,7 @@ We utilize the ESOL dataset from MoleculeNet, and preprocess each entry using RD
 The transformer architecture contains the following sequential components:
 1. An embedding layer that maps tokenized inputs to d_model dimensional vectors (d_model=256)
 2. Positional encoding to maintain sequential information
-3. A transformer encoder stack (3 layers) implementing multi-head self-attention (8 heads) as described in "Attention is All You Need" (Vaswer et al., 2017)
+3. A transformer encoder stack (3 layers) implementing multi-head self-attention (8 heads) as described in "Attention is All You Need" (Vaswani et al., 2017)
 4. Mean pooling across the sequence dimension to create a fixed-size representation
 5. A final linear layer that gives a single value for solubility prediction
 
